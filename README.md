@@ -3,7 +3,7 @@
 
 After cloning the repository, install dependencies:
 ```sh
-cd <project folder>/react
+cd <project folder>/phone-curry
 npm install
 ```
 Now you can run your local server:
