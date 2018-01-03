@@ -18,18 +18,28 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbar-phone-curry">
             <ul className="nav navbar-nav navbar-right">
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
+              <li><Link to="/about">Phones</Link></li>
               <li className="dropdown">
-                <a className="dropdown-toggle" data-toggle="dropdown" href="">Page 1 <span className="caret"></span></a>
+                <a className="dropdown-toggle" data-toggle="dropdown" href="">More <span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/">Page 1-1</Link></li>
-                  <li><Link to="/">Page 1-2</Link></li>
-                  <li><Link to="/">Page 1-3</Link></li>
+                  <li><Link to="/">Latest Phones</Link></li>
+                  <li><Link to="/">Upcoming Phones</Link></li>
+                  <li><Link to="/">Contest</Link></li>
                 </ul>
               </li>
               <li><Link to="/"><span className="glyphicon glyphicon-user"></span> Sign Up</Link></li>
               <li><Link to="/"><span className="glyphicon glyphicon-log-in"></span> Login</Link></li>
             </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search" />
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search" ></i>
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </nav>
